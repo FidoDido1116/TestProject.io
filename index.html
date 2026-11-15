@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Love 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="floating-hearts"></div>
+
+    <!-- Welcome Section -->
+    <header class="hero" id="home">
+        <nav class="nav">
+            <a class="brand" href="#home">
+                ♡ for my favourite 2+22 y/o person
+            </a>
+
+            <button class="music-button" id="musicButton"
+                aria-label="Pause background music">
+                ♫ <span id="musicLabel">Music On</span>
+            </button>
+
+            <audio id="birthdayMusic"
+                src="music/Honeybun.mp3"
+                autoplay
+                loop
+                preload="auto">
+            </audio>
+        </nav>
+
+        <div class="hero-content">
+            <p class="eyebrow">
+                A little celebration for someone wonderful
+            </p>
+
+            <h1>
+                Happy Birthday,<br>
+                <span id="heroName">My Dinosue</span>!
+                <span class="pink-heart">♥</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Today is all about you, and how lucky
+                I am to have you in my life.
+            </p>
+
+            <a class="primary-button" href="#cake">
+                Let's celebrate ↓
+            </a>
+        </div>
+
+        <div class="scroll-note">
+            Scroll for your surprises
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Birthday Cake -->
+        <section class="section cake-section" id="cake">
+
+            <p class="eyebrow">Make a wish</p>
+
+            <h2>A birthday wish just for you</h2>
+
+            <p class="section-intro">
+                Close your eyes, make a wish,
+                and tap the button to blow out the candles.
+            </p>
+
+            <div class="cake-scene">
+                <div class="cake">
+
+                    <div class="candles" id="candles">
+                        <div class="candle">
+                            <span class="flame"></span>
+                        </div>
+
+                        <div class="candle">
+                            <span class="flame"></span>
+                        </div>
+
+                        <div class="candle">
+                            <span class="flame"></span>
+                        </div>
+                    </div>
+
+                    <div class="icing"></div>
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="cake-plate"></div>
+
+                </div>
+            </div>
+
+            <p class="wish-message" id="wishMessage">
+                Your wish is waiting… ✨
+            </p>
+
+            <button class="primary-button" id="blowButton">
+                Blow out the candles 🕯️
+            </button>
+
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="section memories-section" id="memories">
+
+            <p class="eyebrow">
+                Little moments, big feelings
+            </p>
+
+            <h2>Our favourite memories</h2>
+
+            <p class="section-intro">
+                A few snapshots of the moments that make me smile.
+            </p>
+
+            <div class="gallery">
+
+                <button class="gallery-arrow" id="prevPhoto">
+                    ‹
+                </button>
+
+                <figure class="photo-card">
+
+                    <img
+                        id="galleryImage"
+                        src="images/Photo1.jpeg"
+                        alt="Our favourite memory"
+                    >
+
+                    <figcaption>
+                        <span id="photoCount">01 / 03</span>
+
+                        <strong id="photoCaption">
+                            One of my fav picture of you
+                        </strong>
+                    </figcaption>
+
+                </figure>
+
+                <button class="gallery-arrow" id="nextPhoto">
+                    ›
+                </button>
+
+            </div>
+
+            <div class="gallery-dots" id="galleryDots"></div>
+
+        </section>
+
+        <!-- Secret Birthday Letter -->
+        <section class="section letter-section" id="letter">
+
+            <p class="eyebrow">A message from my heart</p>
+
+            <h2>A little letter for you</h2>
+
+            <p class="section-intro">
+                There are some things I never want you to forget.
+            </p>
+
+            <div class="envelope-wrap">
+
+                <button class="envelope" id="openLetter">
+
+                    <span class="envelope-heart">♥</span>
+
+                    <span class="envelope-hint">
+                        Tap to open
+                    </span>
+
+                </button>
+
+            </div>
+
+            <article class="letter-paper" id="letterPaper" hidden>
+
+                <p class="letter-date">
+                    A special day, just for you 💌
+                </p>
+
+                <h3>To my favourite +1,</h3>
+
+                <p>
+                    Happy birthday, my dear celedak. I hope your day as bright as your smile that Ive falls to.
+                    I am sorry that couldn’t give you the same amount of love likes anyone else’s partner could give.
+                    But I hope you know that I’ll always root for you even if one day later we are not together.
+                </p>
+
+                <p>
+                    Thank you for the laughter, the little moments,
+                    and the way you makes me feel that i'm special person to someone.
+                    Thank you for being so patient with this impatient man.
+                    I'm so grateful that our paths crossed once again.
+                </p>
+
+                <p>
+                    May this new chapter bring you happiness,
+                    courage, good health, and everything your heart
+                    has been wishing for. I'll be cheering and loving you on
+                    through it all.
+                </p>
+
+                <p class="letter-signoff">
+                    XOXO,<br>
+                    <strong>Your Bubu :) ♡</strong>
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- Final Celebration -->
+        <section class="final-section">
+
+            <div class="final-card">
+
+                <div class="sparkle">
+                    ✦　♡　✦
+                </div>
+
+                <p class="eyebrow">One more thing</p>
+
+                <h2>
+                    You make my world
+                    a little more beautiful.
+                </h2>
+
+                <p>
+                    Here's to more memories, more laughter,
+                    and many more birthdays together.
+                </p>
+
+                <button class="primary-button" id="celebrateButton">
+                    Send a little celebration 🎉
+                </button>
+
+                <p class="final-note">
+                    Made with love, just for you. ♡
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        ♡ made with love ♡
+    </footer>
+
+    <!-- Background Music -->
+    <audio
+        id="birthdayMusic"
+        src="music/Honeybun.mp3"
+        loop
+        preload="none">
+    </audio>
+
+    <!-- Confetti and Fireworks -->
+    <canvas id="celebrationCanvas"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
